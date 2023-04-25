@@ -1,0 +1,154 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3613679880" file="D:\matlab_code\mice\Behavior_GUI_for_paper_new\HERBs_GoNoGo.prj" location="D:\matlab_code\mice\Behavior_GUI_for_paper_new" name="HERBs_GoNoGo" preferred-package-location="D:\matlab_code\mice\Behavior_GUI_for_paper_new\HERBs_GoNoGo\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>HERBs_GoNoGo</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description />
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\HERBs_GoNoGo\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\HERBs_GoNoGo\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\HERBs_GoNoGo\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\HERBs_GoNoGo\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\HERBs_GoNoGo</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages>
+      <item>&lt;package displayname="GenICam Interface" enabled="true" name="GenICam Interface" product="Image Acquisition Toolbox"/&gt;</item>
+      <item>&lt;package displayname="GigE Vision Hardware" enabled="true" name="GigE Vision Hardware" product="Image Acquisition Toolbox"/&gt;</item>
+      <item>&lt;package displayname="OS Generic Video Interface" enabled="true" name="OS Generic Video Interface" product="Image Acquisition Toolbox"/&gt;</item>
+    </param.support.packages>
+    <param.web.mcr>true</param.web.mcr>
+    <param.package.mcr>false</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>false</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.description />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.web.mcr />
+      <param.package.mcr />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\HERBs_GoNoGo.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\DM\get_stim_start_delay.m</file>
+      <file>${PROJECT_ROOT}\DM\start_stimulus_with_delay.m</file>
+      <file>${PROJECT_ROOT}\general\fcom.m</file>
+      <file>${PROJECT_ROOT}\general\light_Callback.m</file>
+      <file>${PROJECT_ROOT}\general\loadStatus.m</file>
+      <file>${PROJECT_ROOT}\general\reward_Callback.m</file>
+      <file>${PROJECT_ROOT}\general\saveStatus.m</file>
+      <file>${PROJECT_ROOT}\general\stop_all_stims.m</file>
+      <file>${PROJECT_ROOT}\general\stoprun.m</file>
+      <file>${PROJECT_ROOT}\general\wait_for_ack.m</file>
+      <file>${PROJECT_ROOT}\general\write_excel_file.m</file>
+      <file>${PROJECT_ROOT}\gonogo\clear_licks_gonogo.m</file>
+      <file>${PROJECT_ROOT}\gonogo\clr_timeout.m</file>
+      <file>${PROJECT_ROOT}\gonogo\control_spouts_gonogo.m</file>
+      <file>${PROJECT_ROOT}\gonogo\dac_to_zero.m</file>
+      <file>${PROJECT_ROOT}\gonogo\init_gonogo.m</file>
+      <file>${PROJECT_ROOT}\gonogo\new_state.m</file>
+      <file>${PROJECT_ROOT}\gonogo\print_settings_gonogo.m</file>
+      <file>${PROJECT_ROOT}\gonogo\read_serial_gonogo.m</file>
+      <file>${PROJECT_ROOT}\gonogo\start_audio_sequence_go.m</file>
+      <file>${PROJECT_ROOT}\gonogo\start_audio_sequence_nogo.m</file>
+      <file>${PROJECT_ROOT}\gonogo\start_go_stimulus.m</file>
+      <file>${PROJECT_ROOT}\gonogo\start_gonogo.m</file>
+      <file>${PROJECT_ROOT}\gonogo\start_light_sequence_go.m</file>
+      <file>${PROJECT_ROOT}\gonogo\start_light_sequence_nogo.m</file>
+      <file>${PROJECT_ROOT}\gonogo\start_nogo_stimulus.m</file>
+      <file>${PROJECT_ROOT}\gonogo\state_machine.m</file>
+      <file>${PROJECT_ROOT}\gonogo\stop_gonogo.m</file>
+      <file>${PROJECT_ROOT}\gonogo\to_delay_period.m</file>
+      <file>${PROJECT_ROOT}\gonogo\to_iti_long.m</file>
+      <file>${PROJECT_ROOT}\gonogo\to_iti_short.m</file>
+      <file>${PROJECT_ROOT}\gonogo\to_new_trial.m</file>
+      <file>${PROJECT_ROOT}\gonogo\to_punishment_nogo.m</file>
+      <file>${PROJECT_ROOT}\gonogo\to_punishment_timeout.m</file>
+      <file>${PROJECT_ROOT}\gonogo\to_wait_after_lick.m</file>
+      <file>${PROJECT_ROOT}\gonogo\to_wait_for_lick.m</file>
+      <file>${PROJECT_ROOT}\gonogo\verify_next_trial_type.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\HERBs_GoNoGo\for_testing" name="HERBs_GoNoGo.exe" optional="false">D:\matlab_code\mice\Behavior_GUI_for_paper_new\HERBs_GoNoGo\for_testing\HERBs_GoNoGo.exe</file>
+      <file location="${PROJECT_ROOT}\HERBs_GoNoGo\for_testing" name="splash.png" optional="false">D:\matlab_code\mice\Behavior_GUI_for_paper_new\HERBs_GoNoGo\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\HERBs_GoNoGo\for_testing" name="readme.txt" optional="true">D:\matlab_code\mice\Behavior_GUI_for_paper_new\HERBs_GoNoGo\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2022a</root>
+      <toolboxes />
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
