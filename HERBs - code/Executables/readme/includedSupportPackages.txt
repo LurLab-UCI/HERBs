@@ -1,3 +1,0 @@
-GenICam Interface
-GigE Vision Hardware
-OS Generic Video Interface
