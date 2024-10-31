@@ -8,7 +8,7 @@ For installation instructions and documentation see Wiki (https://github.com/Lur
 If used, please cite:
 https://www.eneuro.org/content/10/6/ENEURO.0018-23.2023.long
 
-Update Oct 30, 2024:
+**Update Oct 30, 2024:**
 HERBs 2.0
 bug fixes:
 * fixed a bug that caused stimulus display to be only half of what was defined in GUI
