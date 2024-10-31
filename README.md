@@ -9,6 +9,7 @@ If used, please cite:
 https://www.eneuro.org/content/10/6/ENEURO.0018-23.2023.long
 
 **Critical Update Oct 30, 2024**
+
 HERBs 2.0 is realeased with important bug fixes and communication updates
 bug fixes:
 * fixed a bug that caused stimulus display to be only half of what was defined in GUI
