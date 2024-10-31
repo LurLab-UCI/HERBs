@@ -1,0 +1,104 @@
+input_filename      
+reward_pulse_L     20 
+reward_pulse_R     20 
+reward_pulse_C     20 
+notes      
+animalid     save path 
+sp2ext     20.0 
+sp2rest     15.0 
+sp1ext     20.0 
+sp1rest     15.0 
+number_of_rights      5.0 
+number_of_lefts      5.0 
+percent_retrial_rewards     100.0 
+iti_min      6.0 
+iti_max      9.0 
+punishment_volume     25.0 
+bias_diff      1.0 
+bias_buffer      1.0 
+punishment_rest_time      2.0 
+punishment_tone_time      1.0 
+airpuff_duration      0.0 
+wait24      1.5 
+lick_time_requirement      1.0 
+lick_count_requirement      1.0 
+state3_timeout     30.0 
+state1_timeout     30.0 
+ex_duration     30.0 
+number_of_stim_cycles     100.0 
+stim_cycle_duration      0.2 
+stim_duration      0.1 
+stim_duration_rate_disc      5.0 
+low_rate      1.0 
+high_rate     10.0 
+volume     25.0 
+brightness      1.0 
+percentage_of_center_rewards     100.0 
+tcsa_lick_time_window     100.0 
+percentage_of_training_trials     100.0 
+per_R     50.0 
+numberofsteps      0.0 
+max_delay      3.0 
+min_delay      1.0 
+time_center_spout_available_fixed      1.0 
+stim_start_delay_fixed      1.0 
+time_center_spout_available      1.0 
+stim_start_delay      0.1 
+usefile     0 
+servo     1 
+linear     0 
+right_first     0 
+left_first     0 
+forced_sequence     0 
+biason     0 
+free_reward     0 
+retrial_mode     1 
+wrong_lick_punishment     1 
+timeout_punishment     1 
+full_panel_training     0 
+single_panel     0 
+no_test_punishment_rd     0 
+mixed_rates     0 
+two_rates_only     0 
+higher_rate_correct     0 
+SideDiscrimination     1 
+no_test_punishment     0 
+light8     0 
+light2     1 
+RateDiscrimination     0 
+first_lick_no_reward     0 
+override     0 
+tcsa_reward     0 
+Variable_SSD     0 
+Variable_TCSA     0 
+Stable_Delays     1 
+allleds     0 
+
+Rate Discrimination Rates
+ 1.00
+ 1.33
+ 1.78
+ 2.37
+ 3.16
+ 4.22
+ 5.62
+ 7.50
+10.00
+ 
+--------------------------------------------------  
+3.980  ack 
+3.983 light panels initialized
+0.005 to_state_0 
+0.005   ITI delay = 6.672  
+0.005 start_of_new_trial
+0.005 spouts_to_rest 
+0.006 spouts_90_90   
+6.691 spout_C 
+6.692 spouts_60_90   
+7.451 to_state_1
+29.982   experiment ended 
+29.983 noise_stop 
+30.045 spouts_180_0   
+
+
+edit: 
